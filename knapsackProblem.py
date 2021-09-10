@@ -1,7 +1,7 @@
 
 def minimumPrice(x, y, z):                                          # x for sacksAndContainers list, the y for sacksInContainer list and the z for containerPrice list
     unitPrice = []                                                  # list for the unit price in each container
-    for i in range(3):
+    for i in range(x[1]):
        unit = z[i] / y[i]                                           # calculate unit price
        unitPrice.append(unit)
 
